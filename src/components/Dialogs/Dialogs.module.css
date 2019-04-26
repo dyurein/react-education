@@ -1,0 +1,41 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+.dialog_items {
+  padding: 10px;
+}
+.msgs {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 10px 20px;
+}
+.chat {
+  width: 100%;
+  display: flex;
+  justify-self: flex-end;
+  bottom: 15px;
+}
+.input {
+  width: 70%;
+  outline: 0;
+  border: none;
+  max-height: 200px;
+  border-radius: 6px;
+  word-wrap: break-word;
+  padding: 10px;
+  line-height: 17px;
+  font-size: 18px;
+}
+.btn_send {
+  border: 0;
+  background: #fff;
+  border-radius: 6px;
+  min-width: 100px;
+  outline: 0;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 20px;
+
+}

@@ -1,0 +1,11 @@
+.item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.icon {
+  width: 20px;
+}
+.count {
+  margin-left: 5px;
+}

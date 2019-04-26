@@ -1,0 +1,30 @@
+.posts_wrapper {
+  padding: 0 15px;
+}
+.user {
+  display: flex;
+  margin-top: 25px;
+}
+.user_avatar {
+  width: 100px;
+  height: 100px;
+}
+.descr {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.name {
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 18px;
+  color: #1e1e1e;
+}
+.user_info {
+  font-size: 20px;
+  color: #1e1e1e;
+}
+.img {
+  height: 400px;
+  width: 100%;
+}

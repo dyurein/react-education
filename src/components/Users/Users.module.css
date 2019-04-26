@@ -1,0 +1,16 @@
+.users_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.left_side {
+    display: flex;
+    flex-direction: column;
+}
+.user_avatar {
+    max-width: 100px;
+    height: auto;
+}
+.right_side {
+    display: flex;
+    flex-direction: column;
+}

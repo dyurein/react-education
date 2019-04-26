@@ -3,6 +3,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+}
 .app-wrapper {
   display: grid;
   width: 1200px;
@@ -16,26 +19,10 @@ ul {
   grid-template-columns: 2fr 10fr;
   grid-gap: 15px;
 }
-.logo {
-  width: 100px;
-}
-.header {
-  grid-area: h;
-  background: green;
-}
-.side-nav {
-  background: yellow;
-}
 
-.nav-list {
-  grid-area: n;
-}
-
-.content {
+.app-wrapper-content {
   grid-area: c;
   background: pink;
-}
-.content-img {
-  height: 400px;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
 }

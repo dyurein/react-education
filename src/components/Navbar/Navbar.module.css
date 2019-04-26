@@ -1,0 +1,17 @@
+.nav {
+  background: yellow;
+  padding: 10px 15px;
+}
+.list {
+  grid-area: n;
+}
+.elem {
+  margin-bottom: 8px;
+}
+.elem a {
+  font-size: 20px;
+  font-weight: bold;
+}
+.elem a.active {
+  color: red;
+}
