@@ -4,4 +4,15 @@
 .header {
   grid-area: h;
   background: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 40px;
+}
+
+.loginBlock {
+}
+.loginLink {
+  font-size: 24px;
+  color: #fff;
 }
